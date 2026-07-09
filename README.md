@@ -1,13 +1,26 @@
-# CVE-2026-XXXX: Sunia SPB Peripheral Driver LPE
+# CVE-2026-58583: Sunia SPB Peripheral Driver LPE
+
+> ⚠️ **IMPORTANT NOTICE: CVE-2026-58583 Credit Misattribution & Dispute**  
+> This vulnerability has been officially published as **CVE-2026-58583** on July 7, 2026. However, the discovery credit was incorrectly assigned by CISA (CNA) to a third party (Julian Horoszkiewicz, Atos), despite the official CVE record citing **this repository** (`b3s3da/TcnPeripheral64_PoC`) as the primary exploit reference. 
+> 
+> A formal dispute has been submitted to both CISA and MITRE to correct this administrative error and include the original author (**b3s3da**) in the Credits section.
+> 
+> **Coordinated Disclosure Timeline:**
+> - **2026-01-20:** Vulnerability discovered, full Proof-of-Concept and write-up published in this repository.
+> - **2026-02-25:** Full vulnerability details reported to the vendor (Lenovo/Sunia Security Team).
+> - **2026-06-17:** Vendor acknowledged the report and explicitly requested to hold public disclosure/CVE assignment until July 2026.
+> - **2026-07-07:** CVE-2026-58583 published, incorrectly crediting a third party who likely reported the issue months after my public release and coordinated disclosure.
 
 **Exploit Title:** Sunia SPB Peripheral Driver - Arbitrary Physical Memory Read/Write to Local Privilege Escalation  
 **Date:** 2026-01-20  
 **Exploit Author:** b3s3da  
-**Vendor:** Sunia Electronics  
+**Vendor:** Sunia Electronics (Shipped with certain Lenovo devices)  
 **Driver Version:** 1.0.7.2 (TcnPeripheral64.sys)  
 **SHA256:** `fa4e294b11e613a27722559b043637bd4d0af5603ab7e8c7970caffd96cf7247`  
 **Tested On:** Windows 10 x64 (21H2), Windows 11 x64 (24H2)  
 **Vulnerability Type:** Local Privilege Escalation (LPE) via Arbitrary Physical Memory R/W  
+**CVE ID:** CVE-2026-58583
+
 
 
 ---
